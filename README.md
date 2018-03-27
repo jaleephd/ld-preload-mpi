@@ -1,4 +1,4 @@
-# ld-preload-MPI
+# ld-preload-mpi
 
 A shared library and example code demonstrating the use of `ld_preload`, `MPI_init()` and `MPI_fini()`
 for hooking into file system accesses in jobs submitted to a Linux-based HPC cluster.
@@ -61,6 +61,8 @@ To compile, use `make` with one of the following targets:
 
 The simplest example uses `LD_PRELOAD` to override the `fopen()` system call.
 
+### References
+
 For more information see the following references:
 * http://www.catonmat.net/blog/simple-ld-preload-tutorial/
 * http://rafalcieslak.wordpress.com/2013/04/02/dynamic-linker-tricks-using-ld_preload-to-cheat-inject-features-and-investigate-programs/
@@ -101,6 +103,8 @@ and shows how to get `main()`'s argc and argv parameters from the stack; and
 executes cleanup code after main() completes.
 
 ### References
+
+For more information see the following references:
 * _init: http://hackerboss.com/overriding-system-functions-for-fun-and-profit/
 * get_argv based on: http://blog.linuxgamepublishing.com/2009/10/12/argv-and-argc-and-just-how-to-get-them/
 
