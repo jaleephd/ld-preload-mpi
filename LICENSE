@@ -1,6 +1,6 @@
 BSD 3-Clause License
 
-Copyright (c) 2018, Justin Lee
+Copyright (c) 2014, 2018, Justin Lee
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -27,3 +27,12 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Credits
+
+This application uses Open Source components. Links to source code are provided below.
+We acknowledge and are grateful to these developers for their contributions to open source.
+
+The get_argv() function is adapted from code published at
+http://blog.linuxgamepublishing.com/2009/10/12/argv-and-argc-and-just-how-to-get-them/
+accessed 2014, not currently online.
